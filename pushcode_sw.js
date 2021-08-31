@@ -1,4 +1,4 @@
-// 331
+// 26
 "use strict";
 
 class PushCodeSw {
@@ -7,7 +7,7 @@ class PushCodeSw {
     }
 
     static baseUrl() {
-        return "https://event.pushcode.jp/browser/api/v1";
+        return "https://pushcode-test.pushcode.jp/browser/api/v1";
     }
 
     static toSnakeCase(s) {
